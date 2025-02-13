@@ -36,7 +36,7 @@ p{
 }
 
 .flexbox{
-  margin: 100px;
+  margin: 200px;
   display: flex;
   width: 60%;
   justify-content: space-around;
