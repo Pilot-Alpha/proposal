@@ -1,0 +1,136 @@
+html{
+  background-color: pink;
+  background-image: url(https://media1.tenor.com/m/sdCT4mf8XZMAAAAd/i-love-you-love.gif);
+  background-size: 50%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.romanesco-regular {
+  font-family: "Romanesco", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body{
+  font-family: Romanesco;
+}
+
+.centered{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  margin: 10px auto;
+  text-align: center;
+}
+
+p{
+  font-size: 30px;
+}
+
+.text{
+  font-size: 70px;
+}
+
+.flexbox{
+  margin: 510px;
+  display: flex;
+  width: 60%;
+  justify-content: space-around;
+}
+
+#yes0{
+  background-color: rgba(0,128,0,0.8);
+  border: 5px solid gray;
+  width: 100px;
+  height: 50px;
+  border-radius: 10%;
+}
+
+#yes1{
+  background-color: rgba(0,128,0,0.8);
+  border: 5px solid gray;
+  width: 150px;
+  height: 75px;
+  border-radius: 10%;
+}
+
+#yes2{
+  background-color: rgba(0,128,0,0.8);
+  border: 5px solid gray;
+  width: 200px;
+  height: 100px;
+  border-radius: 10%;
+}
+
+#yes3{
+  background-color: rgba(0,128,0,0.8);
+  border: 5px solid gray;
+  width: 300px;
+  height: 150px;
+  border-radius: 10%;
+}
+
+#yes4 {
+  background-color: rgba(0,128,0,0.8);
+  border: 5px solid gray;
+  width: 400px;
+  height: 200px;
+  border-radius: 10%;
+}
+
+#yes5 {
+  background-color: rgba(0,128,0,0.8);
+  border: 5px solid gray;
+  width: 500px;
+  height: 250px;
+  border-radius: 10%;
+}
+
+
+#no0{
+  border: none;
+  width: 100px;
+  height: 50px;
+}
+
+#no1{
+  border: none;
+  width: 80px;
+  height: 40px;
+}
+
+#no2 {
+  border: none;
+  width: 70px;
+  height: 35px;
+}
+
+#no3 {
+  border: none;
+  width: 50px;
+  height: 20px;
+}
+
+#no4 {
+  border: none;
+  width: 30px;
+  height: 15px;
+}
+
+#no5 {
+
+  border: none;
+  width: 0px;
+  height: 0px;
+  font-size: 0px;
+  display: none;
+}
+
+.no {
+  border-radius: 10%;
+  background-color: rgba(128,0,0,0.8);
+}
